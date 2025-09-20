@@ -6,7 +6,8 @@ namespace Tyuiu.GamaleevaYuA.Sprint1.Task2.V9.Lib
         public double CalculateVolumeCircle(int r)
         {
             int x = 3;
-            return Math.Round((4/3) * r * r * r * Math.PI, x);
+            var i = (4 * r * r * r * Math.PI) / 3;
+            return Math.Round(i, x);
         }
     }
 }

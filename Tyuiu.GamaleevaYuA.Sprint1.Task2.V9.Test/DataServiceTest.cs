@@ -8,9 +8,9 @@ namespace Tyuiu.GamaleevaYuA.Sprint1.Task2.V9.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            int x = 4;
+            int x = 6;
             var res = ds.CalculateVolumeCircle(x);
-            Assert.AreEqual(201.062, res);
+            Assert.AreEqual(904.779, res);
 
         }
 
