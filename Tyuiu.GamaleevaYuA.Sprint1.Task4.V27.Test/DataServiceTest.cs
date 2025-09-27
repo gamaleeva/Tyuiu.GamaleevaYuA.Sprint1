@@ -11,6 +11,7 @@ namespace Tyuiu.GamaleevaYuA.Sprint1.Task4.V27.Test
             double x = 1;
             double y = 2;
             double wait = -2.414;
+
             var res = ds.Calculate(x, y);
             Assert.AreEqual(wait, res);
 
