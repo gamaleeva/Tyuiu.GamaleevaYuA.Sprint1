@@ -7,7 +7,7 @@ internal class Program
         Console.Title = "Спринт #1 | Выполнила: Гамалеева Ю. А. | ИБКСб-25-1";
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* Спринт #1                                                               *");
-        Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
+        Console.WriteLine("* Тема: Class Math                                                        *");
         Console.WriteLine("* Задание #4                                                              *");
         Console.WriteLine("* Вариант #27                                                             *");
         Console.WriteLine("* Выполнила: Гамалеева Юлия Андреевна | ИБКСб-25-1                        *");
