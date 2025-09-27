@@ -1,4 +1,4 @@
-﻿using Tyuiu.GamaleevaYuA.Sprint1.Task6.V14.Lib;
+﻿using Tyuiu.GamaleevaYuA.Sprint1.Task7.V6.Lib;
 internal class Program
 {
     private static void Main(string[] args)
@@ -8,23 +8,30 @@ internal class Program
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* Спринт #1                                                               *");
         Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
-        Console.WriteLine("* Задание #6                                                              *");
-        Console.WriteLine("* Вариант #14                                                             *");
+        Console.WriteLine("* Задание #7                                                              *");
+        Console.WriteLine("* Вариант #6                                                              *");
         Console.WriteLine("* Выполнила: Гамалеева Юлия Андреевна | ИБКСб-25-1                        *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* УСЛОВИЕ:                                                                *");
-        Console.WriteLine("* Написать программу: пользователь вводит текст.                          *");
-        Console.WriteLine("* Проверить, что строка составлена только из строчных русских букв.       *");
+        Console.WriteLine("* Написать программу, которая вычисляет математическое выражение          *");
+        Console.WriteLine("* по исходным значениям данных, вводимых пользователем.                   *");
         Console.WriteLine("*                                                                         *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
         Console.WriteLine("***************************************************************************");
-        Console.WriteLine("* Введите строку:");
-        string s = Convert.ToString(Console.ReadLine());
+        Console.WriteLine("*                    x          2");
+        Console.WriteLine("* z = 1 +   (  1   )      -- 12x   y");
+        Console.WriteLine("*           ( ---  )");
+        Console.WriteLine("*           (  x 2 )");
+        double x, y;
+        Console.WriteLine("* Введите значение X:                                                     *");
+        x = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("* Введите значение Y:                                                     *");
+        y = Convert.ToDouble(Console.ReadLine());
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
-        Console.WriteLine(ds.CheckLowerCaseRusLetters(s));
+        Console.WriteLine(ds.Calculate(x, y));
         Console.ReadKey();
     }
 }
